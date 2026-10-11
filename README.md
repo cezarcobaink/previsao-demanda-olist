@@ -10,15 +10,13 @@ Dados: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/dat
 
 ## Principais achados
 
-| # | Achado | Gráfico |
-|---|---|---|
-| 1 | O volume semanal triplicou em 2017 (5,1 mil → 17,6 mil pedidos por trimestre) e se estabilizou em 2018 | [série](figures/01_serie_semanal.png) · [calendário](figures/05_calendario.png) |
-| 2 | Atrasar de 4 a 7 dias derruba a nota média de 4,2 para 2,3; adiantar quase não muda nada | [atraso × nota](figures/04_atraso_nota.png) |
-| 3 | A Olist prometia, em média, 13 dias a mais do que entregava, o que abre espaço para testar promessas mais curtas | [prometido × real](figures/03_dumbbell_prazo.png) |
-| 4 | A entrega leva 9 dias em SP e quase 30 em RR; no Norte, o frete pesa 36% do preço do item, contra 21% no Sudeste | [mapa](figures/02_mapa_prazo.png) · [frete](figures/09_distribuicao_frete.png) |
-| 5 | Seis categorias explicam metade do crescimento da receita do 1º semestre | [waterfall](figures/07_waterfall_receita.png) |
-| 6 | 97% dos pedidos chegam, mas só 55% chegam no prazo **e** recebem nota 5 | [funil](figures/08_funil.png) |
-| 7 | Replanejar semanalmente reduz o erro de 16,6% para 11,0% | [cadência](figures/13_cadencia.png) |
+1. O volume semanal triplicou em 2017 (5,1 mil → 17,6 mil pedidos por trimestre) e se estabilizou em 2018 ([série](figures/01_serie_semanal.png) · [calendário](figures/05_calendario.png))
+2. Atrasar de 4 a 7 dias derruba a nota média de 4,2 para 2,3; adiantar quase não muda nada ([atraso × nota](figures/04_atraso_nota.png))
+3. A Olist prometia, em média, 13 dias a mais do que entregava, o que abre espaço para testar promessas mais curtas ([prometido × real](figures/03_dumbbell_prazo.png))
+4. A entrega leva 9 dias em SP e quase 30 em RR; no Norte, o frete pesa 36% do preço do item, contra 21% no Sudeste ([mapa](figures/02_mapa_prazo.png) · [frete](figures/09_distribuicao_frete.png))
+5. Seis categorias explicam metade do crescimento da receita do 1º semestre ([waterfall](figures/07_waterfall_receita.png))
+6. 97% dos pedidos chegam, mas só 55% chegam no prazo **e** recebem nota 5 ([funil](figures/08_funil.png))
+7. Replanejar semanalmente reduz o erro de 16,6% para 11,0% ([cadência](figures/13_cadencia.png))
 
 ![Atraso e nota](figures/04_atraso_nota.png)
 
